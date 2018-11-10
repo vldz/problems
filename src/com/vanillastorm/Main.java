@@ -7,23 +7,150 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        int[] array = new int[]{0, 1, 2, 3, 5, 6, 7, 8, 9};
+        int[] array = new int[]{1, 3, 4, 2};
 
 //        ListNode l1 = new ListNode(342);
 //        ListNode l2 = new ListNode(465);
-//        ListNode l = new ListNode(2);
-//        l.next = new ListNode(3);
-//        l.next.next = new ListNode(4);
+        ListNode l = new ListNode(5);
+        l.next = new ListNode(2);
+        l.next.next = new ListNode(3);
 //
 //        ListNode l2 = new ListNode(1);
 //        l2.next = new ListNode(5);
 //        l2.next.next = new ListNode(4);
 //         printMatrix(3,3);
+//        int[][] matrix = {
+//                {1, 2, 3, 4},
+//                {5, 6, 7, 8},
+//                {9, 10, 11, 12}
+//        };
+
     }
 
+//    public static ListNode insertSort (ListNode head) {
+//
+//    }
 
-    public static int [][] transpose(int [][] A) {
-        int [][] B = new int[A[0].length][A.length];
+    public static int [] bubbleSort (int [] array) {
+        return array;
+    }
+
+    public static int [] insertionSort (int [] array) {
+        int temp = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i; j >= 0; j--) {
+                if (array[i] < array[j]) {
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                    i--;
+                }
+            }
+        }
+        return array;
+    }
+
+    public static int [] selectionSort (int [] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            int min = array[i];
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[j] < min) {
+                    min = array[j];
+                    int temp = array[j];
+                    array[j] = array[i];
+                    array[i] = temp;
+                }
+            }
+        }
+        return array;
+    }
+
+    public static List<Integer> spiralOrder(int[][] matrix) {
+        List result = new ArrayList<>();
+
+        if (matrix.length == 0) {
+            return result;
+        }
+
+        int rowLenght = matrix.length;
+        int columnLength = matrix[0].length;
+
+        int amountOfElements = rowLenght * columnLength;
+
+        int stepCounter = 1;
+        int rowIndex = 0;
+        int columnIndex = 0;
+        int leftmostIndexInColumns = 0;
+        int upmostIndexInRows = 0;
+        int directionMarker = 0;
+
+        result.add(matrix[0][0]);
+
+        while (stepCounter < amountOfElements) {
+            switch (directionMarker) {
+                case 0:
+                    if (stepCounter == amountOfElements) {
+                        break;
+                    }
+                    columnIndex++;
+                    while (columnIndex < columnLength) {
+                        result.add(matrix[rowIndex][columnIndex]);
+                        columnIndex++;
+                        stepCounter++;
+                    }
+                    columnIndex--;
+                    upmostIndexInRows++;
+                    directionMarker = 1;
+
+                case 1:
+                    if (stepCounter == amountOfElements) {
+                        break;
+                    }
+                    rowIndex++;
+                    while (rowIndex < rowLenght) {
+                        result.add(matrix[rowIndex][columnIndex]);
+                        rowIndex++;
+                        stepCounter++;
+                    }
+                    rowIndex--;
+                    columnLength--;
+                    directionMarker = 2;
+
+                case 2:
+                    if (stepCounter == amountOfElements) {
+                        break;
+                    }
+                    columnIndex--;
+                    while (columnIndex >= leftmostIndexInColumns) {
+                        result.add(matrix[rowIndex][columnIndex]);
+                        columnIndex--;
+                        stepCounter++;
+                    }
+                    columnIndex++;
+                    //leftmostIndexInColumns++;
+                    rowLenght--;
+                    directionMarker = 3;
+
+                case 3:
+                    if (stepCounter == amountOfElements) {
+                        break;
+                    }
+                    rowIndex--;
+                    while (rowIndex >= upmostIndexInRows) {
+                        result.add(matrix[rowIndex][columnIndex]);
+                        rowIndex--;
+                        stepCounter++;
+                    }
+                    rowIndex++;
+                    leftmostIndexInColumns++;
+                    directionMarker = 0;
+            }
+        }
+        return result;
+    }
+
+    public static int[][] transpose(int[][] A) {
+        int[][] B = new int[A[0].length][A.length];
         for (int row = 0; row < A[0].length; row++) {
             for (int column = 0; column < A.length; column++) {
                 B[row][column] = A[column][row];
@@ -33,7 +160,7 @@ public class Main {
     }
 
     public static void printMatrix(int n, int m) {
-        int [][] matrix = new int[n][m];
+        int[][] matrix = new int[n][m];
         int counter = 0;
         for (int row = 0; row < n; row++) {
             for (int column = 0; column < m; column++) {
@@ -361,19 +488,6 @@ public class Main {
                 }
             }
         }
-    }
-
-    public static int[] bubbleSortArray(int[] array) {
-        for (int i = array.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (array[j] > array[j + 1]) {
-                    int temp = array[j + 1];
-                    array[j + 1] = array[j];
-                    array[j] = temp;
-                }
-            }
-        }
-        return array;
     }
 
     public static void absentNumberBidloCode(int[] array) {
