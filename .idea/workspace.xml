@@ -22,28 +22,29 @@
     <session id="645835099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="48" />
           <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="6" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="8" />
-          <entry key="project.open.time.8" value="7" />
-          <entry key="project.open.time.9" value="7" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.open.time.7" value="9" />
+          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.9" value="10" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13771" />
+          <entry key="java" value="18168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13771" />
+          <entry key="JAVA" value="18168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,10 +64,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+            <state relative-caret-position="301">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#getIntersectionNode#0;class#Main#0" />
+                <element signature="method#intersect#0;class#Main#0" />
+                <element signature="method#unionOfTwoArrays#0;class#Main#0" />
+                <element signature="method#fibonacci#0;class#Main#0" />
+                <element signature="method#findHead#0;class#Main#0" />
+                <element signature="method#insertSort#0;class#Main#0" />
+                <element signature="method#bubbleSort#0;class#Main#0" />
                 <element signature="method#insertionSort#0;class#Main#0" />
                 <element signature="method#selectionSort#0;class#Main#0" />
                 <element signature="method#spiralOrder#0;class#Main#0" />
@@ -96,10 +104,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +140,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="688" />
     <option name="height" value="900" />
   </component>
@@ -155,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,14 +189,12 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541691949861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542211495645" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -273,18 +282,27 @@
       <workItem from="1541761947236" duration="1361000" />
       <workItem from="1541766652222" duration="717000" />
       <workItem from="1541776041998" duration="792000" />
-      <workItem from="1541857715402" duration="4855000" />
+      <workItem from="1541857715402" duration="5920000" />
+      <workItem from="1541941989223" duration="4364000" />
+      <workItem from="1541951572307" duration="4951000" />
+      <workItem from="1542040900319" duration="199000" />
+      <workItem from="1542041668292" duration="11000" />
+      <workItem from="1542046355157" duration="407000" />
+      <workItem from="1542104020844" duration="4106000" />
+      <workItem from="1542202229273" duration="8029000" />
+      <workItem from="1542211986535" duration="1268000" />
+      <workItem from="1542289026414" duration="1350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84789000" />
+    <option name="totallyTimeSpent" value="110539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -293,8 +311,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16144578" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33493975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,9 +344,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/vanillastorm/Main.java</url>
-          <line>53</line>
+          <line>154</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -348,12 +366,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        <state relative-caret-position="301">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#getIntersectionNode#0;class#Main#0" />
+            <element signature="method#intersect#0;class#Main#0" />
+            <element signature="method#unionOfTwoArrays#0;class#Main#0" />
+            <element signature="method#fibonacci#0;class#Main#0" />
+            <element signature="method#findHead#0;class#Main#0" />
+            <element signature="method#insertSort#0;class#Main#0" />
+            <element signature="method#bubbleSort#0;class#Main#0" />
             <element signature="method#insertionSort#0;class#Main#0" />
             <element signature="method#selectionSort#0;class#Main#0" />
             <element signature="method#spiralOrder#0;class#Main#0" />
@@ -375,16 +411,6 @@
             <element signature="method#absentNumberBidloCode#0;class#Main#0" />
             <element signature="method#lostNumber#0;class#Main#0" />
             <element signature="method#rotate#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,35 +7,192 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = new int[]{1, 3, 4, 2};
+        int[] array = new int[]{1, 2, 2, 1};
+        int[] array2 = new int[]{2, 2};
 
-//        ListNode l1 = new ListNode(342);
-//        ListNode l2 = new ListNode(465);
-        ListNode l = new ListNode(5);
+        int[][] matrix = {
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12}
+        };
+
+        ListNode l = new ListNode(0);
         l.next = new ListNode(2);
-        l.next.next = new ListNode(3);
-//
-//        ListNode l2 = new ListNode(1);
-//        l2.next = new ListNode(5);
-//        l2.next.next = new ListNode(4);
-//         printMatrix(3,3);
-//        int[][] matrix = {
-//                {1, 2, 3, 4},
-//                {5, 6, 7, 8},
-//                {9, 10, 11, 12}
-//        };
+        l.next.next = new ListNode(4);
+        l.next.next.next = new ListNode(8);
+
+        ListNode l2 = new ListNode(1);
+        l2.next = new ListNode(5);
+        l2.next.next =  new ListNode(4);
+        l2.next.next.next = new ListNode(8);
+
+        System.out.println(getIntersectionNode(l, l2));
+    }
+
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+
+        ListNode markerA = headA;
+        ListNode markerB = headB;
+
+        while (markerA != null) {
+            while (markerB != null) {
+                if (markerA.val == markerB.val) {
+                    ListNode markerC = markerA;
+                    return markerC;
+                }
+                markerB = markerB.next;
+            }
+            markerA = markerA.next;
+            markerB = headB;
+        }
+        return null;
+    }
+
+    public static int[] intersect(int[] nums1, int[] nums2) {
+        List<Integer> result = new ArrayList();
+        int[] resultInCaseZero = new int[result.size()];
+
+        if (nums1.length == 0 || nums2.length == 0) {
+            return resultInCaseZero;
+        }
+
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+
+        int i = 0;
+        int j = 0;
+
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] > nums2[j]) {
+                j++;
+                if (j >= nums2.length) break;
+            }
+
+            if (nums1[i] < nums2[j]) {
+                i++;
+                if (i >= nums1.length) break;
+            }
+
+            if (nums1[i] == nums2[j]) {
+                result.add(nums1[i]);
+                i++;
+                j++;
+            }
+        }
+
+        int[] newResult = new int[result.size()];
+        for (int k = 0; k < newResult.length; k++) {
+            newResult[k] = result.get(k);
+        }
+
+        return newResult;
 
     }
 
-//    public static ListNode insertSort (ListNode head) {
-//
-//    }
+    public static int[] unionOfTwoArrays(int[] array1, int[] array2) {
+        int[] result = new int[array1.length + array2.length];
+        int resultIndex = 0;
+        int firstArrayIndex = 0;
+        int secondArrayIndex = 0;
 
-    public static int [] bubbleSort (int [] array) {
+        while (resultIndex < result.length) {
+            if (firstArrayIndex < array1.length && secondArrayIndex < array2.length) {
+                if (array1[firstArrayIndex] < array2[secondArrayIndex]) {
+                    result[resultIndex] = array1[firstArrayIndex];
+                    firstArrayIndex++;
+                    resultIndex++;
+                } else {
+                    result[resultIndex] = array2[secondArrayIndex];
+                    secondArrayIndex++;
+                    resultIndex++;
+                }
+            } else if (firstArrayIndex == array1.length && resultIndex < result.length) {
+                result[resultIndex] = array2[secondArrayIndex];
+                secondArrayIndex++;
+                resultIndex++;
+            } else {
+                result[resultIndex] = array1[firstArrayIndex];
+                firstArrayIndex++;
+                resultIndex++;
+            }
+
+        }
+
+        return result;
+    }
+
+    public static int[] fibonacci(int amount) {
+        int[] fibonacci = new int[amount];
+        fibonacci[0] = 0;
+        fibonacci[1] = 1;
+
+        for (int i = 2; i < amount; i++) {
+            fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+        }
+
+        return fibonacci;
+    }
+
+    public static ListNode findHead(ListNode list) {
+        ListNode head = list;
+
+        ListNode newHead = new ListNode(5);
+        newHead.next = head;
+
+        list = newHead;
+
+        while (list != null) {
+            System.out.print(list.val + " -> ");
+            list = list.next;
+        }
+        System.out.println("null");
+
+        return newHead;
+    }
+
+    public static ListNode insertSort(ListNode list) {
+        if (list == null) {
+            return list;
+        }
+
+        ListNode fakeHead = new ListNode(0);
+        fakeHead.next = list;
+
+        while (list != null && list.next != null) {
+            if (list.val > list.next.val) {
+                ListNode marker = list.next;
+                ListNode markerPrev = fakeHead;
+
+                while (markerPrev.next.val < marker.val) {
+                    markerPrev = markerPrev.next;
+                }
+
+                list.next = marker.next;
+                marker.next = markerPrev.next;
+                markerPrev.next = marker;
+
+            } else {
+                list = list.next;
+            }
+        }
+        return fakeHead.next;
+    }
+
+    public static int[] bubbleSort(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length - 1 - i; j++) {
+                if (array[j] > array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
         return array;
     }
 
-    public static int [] insertionSort (int [] array) {
+    public static int[] insertionSort(int[] array) {
         int temp = 0;
         for (int i = 0; i < array.length; i++) {
             for (int j = i; j >= 0; j--) {
@@ -50,7 +207,7 @@ public class Main {
         return array;
     }
 
-    public static int [] selectionSort (int [] array) {
+    public static int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int min = array[i];
             for (int j = i + 1; j < array.length; j++) {
@@ -471,8 +628,6 @@ public class Main {
     }
 
     public static void binarySearch(int numberToFind, int[] array) {
-        bubbleSortArray(array);
-
         int lower = 0, higher = array.length, mid;
         while (lower < higher) {
             mid = (lower + higher) / 2;
@@ -491,7 +646,6 @@ public class Main {
     }
 
     public static void absentNumberBidloCode(int[] array) {
-        bubbleSortArray(array);
         for (int i = 0; i < array.length; i++) {
             if (array[0] == 1) {
                 System.out.println("absent number is 0");
