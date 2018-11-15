@@ -16,17 +16,61 @@ public class Main {
                 {9, 10, 11, 12}
         };
 
-        ListNode l = new ListNode(0);
-        l.next = new ListNode(2);
-        l.next.next = new ListNode(4);
-        l.next.next.next = new ListNode(8);
+        ListNode l = arrayToNode(array);
+        ListNode l2 = arrayToNode(array2);
 
-        ListNode l2 = new ListNode(1);
-        l2.next = new ListNode(5);
-        l2.next.next =  new ListNode(4);
-        l2.next.next.next = new ListNode(8);
+        System.out.println(l);
+    }
 
-        System.out.println(getIntersectionNode(l, l2));
+    public static ListNode arrayToNode (int[] array) {
+        ListNode result = new ListNode(array[0]);
+        ListNode marker = result;
+
+        for (int i = 1; i < array.length; i++) {
+            ListNode newNode = new ListNode(array[i]);
+            marker.next = newNode;
+            marker = marker.next;
+        }
+
+        return result;
+    }
+
+    public static ListNode partition(ListNode head, int x) {
+
+        if (head == null) return null;
+
+        ListNode firs = new ListNode(0);
+        ListNode smaller = firs;
+        ListNode firstBig = null;
+        ListNode bigger = null;
+
+        while (head != null) {
+            if (head.val >= x) {
+                ListNode newNode = new ListNode(head.val);
+                if (bigger == null) {
+                    firstBig = newNode;
+                    bigger = firstBig;
+                    smaller.next = bigger;
+                } else {
+                    bigger.next = newNode;
+                    bigger = newNode;
+                }
+                head = head.next;
+            } else {
+                ListNode newNode = new ListNode(head.val);
+
+                if (smaller == firs) {
+                    firs.next = newNode;
+                } else {
+                    smaller.next = newNode;
+                }
+                smaller = newNode;
+                newNode.next = firstBig;
+                head = head.next;
+            }
+        }
+
+        return firs.next;
     }
 
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
