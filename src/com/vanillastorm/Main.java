@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = new int[]{1, 2, 2, 1};
+        int[] array = new int[]{3, 5, 5};
         int[] array2 = new int[]{2, 2};
 
         int[][] matrix = {
@@ -19,7 +19,42 @@ public class Main {
         ListNode l = arrayToNode(array);
         ListNode l2 = arrayToNode(array2);
 
-        System.out.println(l);
+        System.out.println(validMountainArray(array));
+    }
+
+    public static boolean validMountainArray(int[] A) {
+        if (A.length < 3) {
+            return false;
+        }
+
+        int topOfMountain = 0;
+        int indexOnTop = 0;
+
+        for (int i = 0; i < A.length; i++) {
+            if (A[i] > topOfMountain) {
+                topOfMountain = A[i];
+                indexOnTop = i;
+            }
+        }
+
+        if (indexOnTop == 0 || indexOnTop == A.length) {
+            return false;
+        }
+
+        for (int i = 0; i < indexOnTop; i++) {
+            if (A[i] >= A[i + 1]) {
+                return false;
+            }
+        }
+
+        for (int i = indexOnTop + 1; i < A.length; i++) {
+
+            if (A[i] == topOfMountain || A[i-1] <= A[i] ) {
+                return false;
+            }
+        }
+
+    return true;
     }
 
     public static ListNode arrayToNode (int[] array) {
