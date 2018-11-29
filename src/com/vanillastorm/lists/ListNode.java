@@ -1,4 +1,4 @@
-package com.vanillastorm;
+package com.vanillastorm.lists;
 
 public class ListNode {
     int val;
