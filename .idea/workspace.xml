@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3df6a8a-86fe-43c0-806e-e1f51db0d7bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/IntersectTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/LostNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/PrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/SpiralOrderMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/TransposeMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/UnionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/ValidMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/ArrayToNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/FindHead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/InsertElementInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/IntersectionsOfLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/ListInsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/MergeToSortedNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/NumberToNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/PartionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/PrintList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/FindSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/JudgeCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/ReverceInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/ReverceString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/other/RomanNumberToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/AddLeaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/ArrayToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/HeightOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/vanillastorm/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanillastorm/lists/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vanillastorm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanillastorm/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,43 +25,46 @@
     <session id="645835099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="63" />
+          <entry key="project.closed" value="73" />
           <entry key="project.open.time.1" value="12" />
-          <entry key="project.open.time.10" value="8" />
+          <entry key="project.open.time.10" value="10" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="10" />
-          <entry key="project.open.time.8" value="8" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="12" />
+          <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="25095" />
+          <entry key="java" value="30179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="25095" />
+          <entry key="JAVA" value="30179" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="105" />
+          <entry key="gitattributes" value="1" />
+          <entry key="java" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="105" />
+          <entry key="JAVA" value="117" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -102,95 +72,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/HeightOfBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="method#maxDepth#0;class#HeightOfBinaryTree#0" />
-                <element signature="method#minDepth#0;class#HeightOfBinaryTree#0" />
+                <element signature="e#130#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ListInsertSort.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="405">
+              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ListNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/ArrayToTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/MergeToSortedNodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/NumberToNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/PartionList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/PrintList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ReverseList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="450">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1541#1542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5760">
+              <caret line="423" column="30" selection-start-line="423" selection-start-column="30" selection-end-line="423" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+              <folding>
+                <element signature="e#3504#3505#0" expanded="true" />
+                <element signature="e#3562#3563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/LostNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -220,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/AddLeaf.java" />
-        <option value="$PROJECT_DIR$/src/com/vanillastorm/Main.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/ArrayToTree.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/HeightOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/SpiralOrderMatrix.java" />
@@ -252,6 +228,13 @@
         <option value="$PROJECT_DIR$/src/com/vanillastorm/lists/PrintList.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/lists/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/NonDecreasingArray.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Quick.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/ShuffleAnArray.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" />
       </list>
     </option>
   </component>
@@ -261,7 +244,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -285,6 +268,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,19 +289,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="vanillastorm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="troubleSpot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="binarySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="vanillastorm" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543491629986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545659584909" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -445,16 +435,26 @@
       <workItem from="1543314070265" duration="5282000" />
       <workItem from="1543484141544" duration="4057000" />
       <workItem from="1543488271613" duration="3324000" />
+      <workItem from="1543503473223" duration="933000" />
+      <workItem from="1543863568920" duration="20000" />
+      <workItem from="1544538957145" duration="567000" />
+      <workItem from="1544617654766" duration="5916000" />
+      <workItem from="1545214652718" duration="5220000" />
+      <workItem from="1545310943293" duration="7511000" />
+      <workItem from="1545399113164" duration="936000" />
+      <workItem from="1545403173987" duration="4661000" />
+      <workItem from="1545419606390" duration="39000" />
+      <workItem from="1545656865830" duration="2727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140918000" />
+    <option name="totallyTimeSpent" value="169448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22889842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,30 +508,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/PartionList.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/AddNodeToBinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/BinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/AddLeaf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -557,13 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/LostNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -717,7 +687,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -728,35 +698,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/NumberToNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/PartionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/HeightOfBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="method#maxDepth#0;class#HeightOfBinaryTree#0" />
-            <element signature="method#minDepth#0;class#HeightOfBinaryTree#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/NumberToNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -767,6 +719,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/NonDecreasingArray.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Quick.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/PartionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/PrintList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -774,10 +735,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="315">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5760">
+          <caret line="423" column="30" selection-start-line="423" selection-start-column="30" selection-end-line="423" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/LostNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
