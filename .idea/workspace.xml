@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3df6a8a-86fe-43c0-806e-e1f51db0d7bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/MinimumIncrementToMakeArrayUnique.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/vanillastorm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanillastorm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +25,10 @@
     <session id="645835099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="73" />
+          <entry key="project.closed" value="79" />
           <entry key="project.open.time.1" value="12" />
-          <entry key="project.open.time.10" value="10" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.10" value="12" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -38,32 +38,33 @@
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="12" />
-          <entry key="project.open.time.8" value="10" />
-          <entry key="project.open.time.9" value="12" />
-          <entry key="project.opened" value="74" />
+          <entry key="project.open.time.8" value="13" />
+          <entry key="project.open.time.9" value="13" />
+          <entry key="project.opened" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="30179" />
+          <entry key="java" value="31338" />
+          <entry key="txt" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30179" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="31338" />
+          <entry key="PLAIN_TEXT" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
-          <entry key="java" value="117" />
+          <entry key="java" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="117" />
+          <entry key="JAVA" value="119" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -71,15 +72,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/lists/SelfDevidingNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/trees/SameTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,10 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/MinimumIncrementToMakeArrayUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="-120">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -122,16 +114,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="519">
+              <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
               <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#1403#1404#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1489#1490#0" expanded="true" />
-                <element signature="e#1541#1542#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="method#fillArrayWithAnotherArray#0;class#ShuffleAnArray#0" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1930#1931#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -233,8 +235,9 @@
         <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Quick.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/Merge.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/sorts/ShuffleAnArray.java" />
-        <option value="$PROJECT_DIR$/src/com/vanillastorm/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/MinimumIncrementToMakeArrayUnique.java" />
         <option value="$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java" />
+        <option value="$PROJECT_DIR$/src/com/vanillastorm/Main.java" />
       </list>
     </option>
   </component>
@@ -269,8 +272,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,12 +301,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545659584909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545681703447" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -352,13 +355,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumIncrementToMakeArrayUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vanillastorm.arrays.MinimumIncrementToMakeArrayUnique" />
+      <module name="troubleSpot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vanillastorm.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ArrayToTree" />
+      <item itemvalue="Application.MinimumIncrementToMakeArrayUnique" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MinimumIncrementToMakeArrayUnique" />
         <item itemvalue="Application.ArrayToTree" />
       </list>
     </recent_temporary>
@@ -445,16 +463,32 @@
       <workItem from="1545403173987" duration="4661000" />
       <workItem from="1545419606390" duration="39000" />
       <workItem from="1545656865830" duration="2727000" />
+      <workItem from="1545661361509" duration="212000" />
+      <workItem from="1545661695460" duration="30000" />
+      <workItem from="1545666657113" duration="1180000" />
+      <workItem from="1545668843982" duration="1914000" />
+      <workItem from="1545681381058" duration="345000" />
+      <workItem from="1545681782791" duration="596000" />
+      <workItem from="1545735240909" duration="1379000" />
     </task>
+    <task id="LOCAL-00001" summary="added problem &quot;Shuffle An Array&quot;(shuffles and resets array)&#10;added problem &quot;Same binary tree&quot;(checks if 2 trees are the same)">
+      <created>1545661564798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545661564802</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169448000" />
+    <option name="totallyTimeSpent" value="175104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27896994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,8 +496,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33493975" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,6 +524,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added problem &quot;Shuffle An Array&quot;(shuffles and resets array)&#10;added problem &quot;Same binary tree&quot;(checks if 2 trees are the same)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added problem &quot;Shuffle An Array&quot;(shuffles and resets array)&#10;added problem &quot;Same binary tree&quot;(checks if 2 trees are the same)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
@@ -803,22 +841,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        <state relative-caret-position="315">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/MinimumIncrementToMakeArrayUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vanillastorm/arrays/ShuffleAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="519">
+          <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="method#fillArrayWithAnotherArray#0;class#ShuffleAnArray#0" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
           </folding>
         </state>
       </provider>

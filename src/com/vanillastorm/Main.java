@@ -6,14 +6,15 @@ import com.vanillastorm.lists.ListNode;
 import com.vanillastorm.trees.ArrayToTree;
 import com.vanillastorm.trees.TreeNode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
         int[] array = new int[]{1, 2, 3, 4, 5};
-
         int[] array2 = new int[]{6, 5, 8};
 
         int[][] matrix = {
@@ -27,13 +28,6 @@ public class Main {
 
         TreeNode binaryTree = ArrayToTree.arrayToTree(array);
         TreeNode binaryTree2 = ArrayToTree.arrayToTree(array2);
-
-        ShuffleAnArray shuffleAnArray = new ShuffleAnArray(array);
-        System.out.println(Arrays.toString(shuffleAnArray.shuffle()));
-        System.out.println(Arrays.toString(shuffleAnArray.shuffle()));
-        System.out.println(Arrays.toString(shuffleAnArray.reset()));
-        System.out.println(Arrays.toString(shuffleAnArray.shuffle()));
-
     }
 
 }

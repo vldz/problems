@@ -33,7 +33,7 @@ public class ShuffleAnArray {
         int size = this.array.length;
 
         int[] newArray = new int[size];
-        boolean[] arrayOfUsedIndexes = new boolean[size];
+        boolean[] usedIndexes = new boolean[size];
 
         for (int i = 0; i < size; i++) {
 
@@ -41,8 +41,8 @@ public class ShuffleAnArray {
             while (!isInserted) {
                 int randomNumberToInsert = random(size);
 
-                if (!isInList(randomNumberToInsert, arrayOfUsedIndexes)) {
-                    arrayOfUsedIndexes[randomNumberToInsert] = true;
+                if (!isInList(randomNumberToInsert, usedIndexes)) {
+                    usedIndexes[randomNumberToInsert] = true;
                     newArray[i] = this.array[randomNumberToInsert];
                     isInserted = true;
                 }
@@ -50,6 +50,28 @@ public class ShuffleAnArray {
         }
 
         return newArray;
+    }
+
+    public int[] shuffle2() {
+        int size = this.array.length;
+        int[] newArray = new int[size];
+
+        fillArrayWithAnotherArray(this.array, newArray);
+
+        for (int i = 0; i < size; i++) {
+            int randomIndex = random(size);
+            int temp = newArray[i];
+            newArray[i] = newArray[randomIndex];
+            newArray[randomIndex] = temp;
+        }
+
+        return newArray;
+    }
+
+    private void fillArrayWithAnotherArray(int[] array, int[] arrayToFill) {
+        for (int i = 0; i < array.length; i++) {
+            arrayToFill[i] = array[i];
+        }
     }
 
     private boolean isInList(int temp, boolean[] array) {
