@@ -1,5 +1,7 @@
 package com.vanillastorm;
 
+import com.vanillastorm.arrays.NRepeatedElementInSize2NArray;
+import com.vanillastorm.arrays.PrisonCellsAfterNDays;
 import com.vanillastorm.arrays.ShuffleAnArray;
 import com.vanillastorm.lists.ArrayToNode;
 import com.vanillastorm.lists.ListNode;
@@ -14,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = new int[]{1, 2, 3, 4, 5};
+        int[] array = new int[]{1, 2, 3, 3, 3, 2};
         int[] array2 = new int[]{6, 5, 8};
 
         int[][] matrix = {
@@ -28,6 +30,15 @@ public class Main {
 
         TreeNode binaryTree = ArrayToTree.arrayToTree(array);
         TreeNode binaryTree2 = ArrayToTree.arrayToTree(array2);
+
+        int x = 55;
+
+//        while (x != 0) {
+//            System.out.println(x);
+//            x = x>>1;
+//        }
+
+
     }
 
 }
