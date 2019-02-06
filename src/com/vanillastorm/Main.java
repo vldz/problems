@@ -3,6 +3,7 @@ package com.vanillastorm;
 import com.vanillastorm.arrays.SumofEvenNumbersAfterQueries;
 import com.vanillastorm.lists.ArrayToNode;
 import com.vanillastorm.lists.ListNode;
+import com.vanillastorm.other.StringToMap;
 import com.vanillastorm.trees.ArrayToTree;
 import com.vanillastorm.trees.TreeNode;
 
@@ -33,22 +34,6 @@ public class Main {
 //            System.out.println(x);
 //            x = x>>1;
 //        }
-
-        int [][] queries = {{1,0}, {-3, 1}, {-4, 0}, {2, 3}};
-        System.out.println(Arrays.toString(SumofEvenNumbersAfterQueries.sumEvenAfterQueries(array, queries)));
-
-
-//        String s = "key=value&key=value";
-//        String keyValueS[] = s.split("=");
-//
-//        Map<String, String> decoder = new HashMap<>();
-//        for (String keyValue :
-//                keyValueS) {
-//            String[] entry = keyValue.split("=");
-//
-//            decoder.put(entry[0], entry[1]);
-//        }
-
     }
 }
 
