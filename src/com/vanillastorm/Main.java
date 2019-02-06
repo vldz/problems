@@ -1,22 +1,18 @@
 package com.vanillastorm;
 
-import com.vanillastorm.arrays.NRepeatedElementInSize2NArray;
-import com.vanillastorm.arrays.PrisonCellsAfterNDays;
-import com.vanillastorm.arrays.ShuffleAnArray;
+import com.vanillastorm.arrays.SumofEvenNumbersAfterQueries;
 import com.vanillastorm.lists.ArrayToNode;
 import com.vanillastorm.lists.ListNode;
 import com.vanillastorm.trees.ArrayToTree;
 import com.vanillastorm.trees.TreeNode;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        int[] array = new int[]{1, 2, 3, 3, 3, 2};
+        int[] array = new int[]{1, 2, 3, 4};
         int[] array2 = new int[]{6, 5, 8};
 
         int[][] matrix = {
@@ -38,7 +34,21 @@ public class Main {
 //            x = x>>1;
 //        }
 
+        int [][] queries = {{1,0}, {-3, 1}, {-4, 0}, {2, 3}};
+        System.out.println(Arrays.toString(SumofEvenNumbersAfterQueries.sumEvenAfterQueries(array, queries)));
+
+
+//        String s = "key=value&key=value";
+//        String keyValueS[] = s.split("=");
+//
+//        Map<String, String> decoder = new HashMap<>();
+//        for (String keyValue :
+//                keyValueS) {
+//            String[] entry = keyValue.split("=");
+//
+//            decoder.put(entry[0], entry[1]);
+//        }
 
     }
-
 }
+
