@@ -196,25 +196,6 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        int[] castleTest1 = {1, 2, 3, 2}; // 3
-        int[] castleTest2 = {1, 2, 2, 2}; // 2
-        int[] castleTest3 = {1, 2, 2, 1}; // 3
-        int[] castleTest4 = {1, 2, 2, 1, 3, 3, -4, -4, -4, 3, 5}; // 4
-        int[] castleTest5 = {1, 2};       // 2
-        int[] castleTest6 = {1};          // 1
-        int[] castleTest7 = {};           // 0
-        int[] castleTest8 = {2, 2, 3, 4, 3, 3, 2, 2, 1, 1, 2, 5}; // 4
-
-        System.out.println(castles(castleTest3));
-
-        System.out.println(Arrays.toString(uniqueNumbersArrayWithZeroSum(3)));
-
-        int[] adjacentValues = {0, 3, 3, 7, 5, 3, 11, 1};
-        int[] adjacentValues2 = {1, 4, 7, 3, 3, 5};
-        int[] adjacentValues3 = {};
-        int[] adjacentValues4 = {1};
-        int[] adjacentValues5 = {1, 1, 1, 1};
-
-        System.out.println(minDistanceBetweenIndecesOfArrayWithAdjacentValues(adjacentValues5));
+        System.out.println(Arrays.toString(uniqueNumbersArrayWithZeroSum(2)));
     }
 }

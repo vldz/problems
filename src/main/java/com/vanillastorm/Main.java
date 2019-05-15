@@ -1,6 +1,5 @@
 package com.vanillastorm;
 
-import com.vanillastorm.lists.AddTwoNumbers;
 import com.vanillastorm.lists.ArrayToNode;
 import com.vanillastorm.lists.ListNode;
 import com.vanillastorm.trees.ArrayToTree;
@@ -37,9 +36,8 @@ public class Main {
         System.out.println(Math.random()*100);
         System.out.println(Math.random()*100);
 
-        int n = 2;
-        System.out.println(-n);
-        AddTwoNumbers.addTwoNumbers(l, l2);
+        int n = 5 / 2;
+        System.out.println(n);
     }
 }
 
